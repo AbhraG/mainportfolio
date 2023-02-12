@@ -1,8 +1,8 @@
 body{
     margin: 0;
-    text-align: center;
     font-family: 'Roboto', sans-serif;
     color:#ffffff;
+    
 }
 a{
     color: rgb(242, 241, 245);
@@ -21,16 +21,7 @@ a:hover{
 }
 
 
-hr{
-    border: dotted #f6f7f7 6px;
-    border-bottom: none;
-    margin: 100px auto;
-    width: 4%;
-}
 
-p{
-    line-height: 2;
-}
 h1{
     color: rgb(20, 19, 20);
     margin: 50px auto 0 auto;
@@ -46,54 +37,47 @@ h3{
     
 }
 
-
-.navbar{
-    background: transparent !important;
-    position: absolute;
-    z-index: 999;
-}
-
-.title-img{
-    width: 60%;
-    
-    position: absolute;
-   right:10%;
-}
-.downlaod-button{
-    margin: 5% 3% 5% 0;
-}
-
-
-
-
-
-.top-container{
-    background-color: #fdfbff;
-    position: relative;
+.banner-text h1{
+  font-size: 50px;
   
 }
-.middle-container{
-    background-color: rgb(255, 255, 255);
-   margin: 100px 0;
-}
-.bottom-container{
-    background-color: rgb(255, 255, 255);
-}
-.intro{
-    width: 30%;
-    margin: auto;
+
+
+.navbar{
+
+  padding : 0 0 4.5rem;
 }
 
-.top-cloud{
-    position: absolute;
-    right: 300px;
-    top: 20px;
+.navbar-brand{
+  font-weight: bold;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
 }
-.bottom-cloud {
-    position: absolute;
-    left: 300px;
-    bottom: 300px;
+
+.nav-item{
+  padding: 0 18px;
 }
+.nav-link{
+  font-size: 1rem;
+  font-weight: 100;
+}
+.downlaod-button{
+  margin: 5% 3% 5% 0;
+}
+
+.bannerimage{
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
 .skill-row{
     width: 50%;
     margin: 100px auto 100px auto;
