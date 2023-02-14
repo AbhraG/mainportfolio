@@ -77,10 +77,14 @@ font-weight: bold;
 
 
 
-
-
-
-
+.my-work h2{
+  text-align: center;
+  font-family:  'Poppins', sans-serif;
+  padding-bottom: 10%;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #1e0d68;
+}
 
 
 
