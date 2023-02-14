@@ -1,9 +1,8 @@
 body {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
-  color: #ffffff;
+  
+ 
+
 
 }
 
@@ -19,63 +18,62 @@ a:hover {
 }
 
 
-.container-fluid {
-  padding: 0% 0% 0%;
-
-}
-
-
 
 h1 {
-  color: rgb(20, 19, 20);
-  margin: 50px auto 0 auto;
-  font-size: 5.625rem;
+  font-family: 'Roboto', sans-serif;
 }
 
 h2 {
-  color: rgb(79, 115, 231);
   font-family: 'Poppins', sans-serif;
-  font-size: 2.5rem;
-}
-
-h3 {
-  font-family: 'Montserrat', sans-serif;
-
-}
-
-.banner-text h1 {
-  font-size: 50px;
 
 }
 
 
-.navbar {
 
-  padding: 0 0 4.5rem;
+
+
+.navbar{
+  padding : 0 0 4.5rem;
 }
 
-.navbar-brand {
-  font-weight: bold;
-  font-family: "Ubuntu";
-  font-size: 2.5rem;
-}
-
-.nav-item {
+.nav-item{
   padding: 0 18px;
 }
-
 .nav-link {
+  color: #341688 !important;
+  font-weight: bold;
+  font-family:'Roboto', sans-serif ;
   font-size: 1rem;
-  font-weight: 100;
+  
 }
+.nav-link:hover{
+  color: #5746b8 !important;
+}
+
+.navbar-toggler-icon{
+  color: #2e158b;
+}
+
+.banner-text{
+ padding-left: 15%;
+}
+.banner-text h1{
+  color: #6535b3;
+  font-weight: bold;
+}
+
+.banner-text h2{
+color: #2b21bb;
+font-family: 'Poppins', sans-serif;
+font-weight: bold;
+}
+
 
 .downlaod-button {
   margin: 5% 3% 5% 0;
+  
 }
 
-.bannerimage {
-  overflow: hidden;
-}
 
 
 
