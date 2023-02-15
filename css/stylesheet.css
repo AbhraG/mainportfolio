@@ -76,7 +76,6 @@ font-weight: bold;
 
 
 
-
 .my-work h2{
   text-align: center;
   font-family:  'Poppins', sans-serif;
@@ -85,6 +84,37 @@ font-weight: bold;
   font-size: 2.5rem;
   color: #1e0d68;
 }
+
+
+
+.my-section1{
+  margin-top:-15%;
+  padding: 10%;
+}
+.my-section1 h4{
+  color: #683994;
+  font-weight: bold;
+  font-size: 30px;
+}
+.my-section1 .subheading{
+  color: #3931af;
+  font-size: 20px;
+}
+.my-section1 .row
+{
+  margin-top: 10%;
+}
+.my-img 
+{
+  text-align: center;
+}
+.my-img img{
+  width: 40%;
+}
+
+
+
+
 
 
 
