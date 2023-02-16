@@ -55,7 +55,7 @@ h2 {
 }
 
 .banner-text{
- padding-left: 15%;
+padding: 10%;
 }
 .banner-text h1{
   color: #6535b3;
@@ -389,6 +389,11 @@ text-align: center;
 text-align: center;
   }
 }
+
+
+
+
+
 
 
 
