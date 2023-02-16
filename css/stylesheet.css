@@ -74,7 +74,11 @@ font-weight: bold;
   
 }
 
-
+@media (max-width: 1028px) {
+  #title {
+text-align: center;
+  }
+}
 
 .my-work h2{
   text-align: center;
@@ -114,6 +118,32 @@ font-weight: bold;
 
 
 
+
+
+.about {
+  margin-top:-15%;
+  padding: 10%;
+}
+.about h4{
+  color: #7D5FE5;
+  font-weight: bold;
+  font-size: 70px;
+}
+.about .subheading{
+  color: #221257;
+  font-size: 20px;
+}
+.about .row
+{
+  margin-top: 10%;
+}
+
+
+@media (max-width: 1028px) {
+  #AboutMe {
+text-align: center;
+  }
+}
 
 
 
@@ -174,11 +204,20 @@ font-weight: bold;
   padding: 20px 0;
 }
 
+
+
+
+@media (max-width: 1028px) {
+  #Skills {
+text-align: center;
+  }
+}
+
 /* ====================================================
                     work
 ===================================================*/
 .heading-work {
-  padding-top: 6vh;
+  padding-top: 10vh;
 }
 
 .heading-work h5 {
@@ -345,6 +384,14 @@ font-weight: bold;
   margin: 10px;
 }
 
+@media (max-width: 1028px) {
+  #Works {
+text-align: center;
+  }
+}
+
+
+
 /* ====================================================
                     contact
 ===================================================*/
@@ -474,4 +521,17 @@ form button:focus {
     padding: 10px 10px 10px 10px;
   }
 
+}
+
+#footer{
+  background-color: #1e0d68;
+  padding: 2% 7%;
+  text-align: center;
+}
+.social-icon{
+  color: #f5f2f2;
+  font-size: 25px;
+}
+.social-icon:hover{
+color: #502b8b;
 }
