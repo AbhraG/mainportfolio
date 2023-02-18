@@ -396,17 +396,18 @@ text-align: center;
 }
 
 
+
 .my-work{
-  margin-top:-15%;
+  margin-top:5%;
   padding: 10%;
 }
 .my-work h4{
-  color: #ffa500;
+  color: #7D5FE5;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 70px;
 }
 .my-work .subheading{
-  color: #3931af;
+  color: #1f1968;
   font-size: 20px;
 }
 .my-work .row
