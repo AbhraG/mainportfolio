@@ -376,7 +376,11 @@ text-align: center;
 /* ====================================================
                     my work
 ===================================================*/
-.color1 {
+.caption {
+  font-family:  'Poppins', sans-serif;
+  text-align: center;
+  color: #320a74;
+ font-weight: bold;
 
 }
 
@@ -387,10 +391,35 @@ text-align: center;
 }
 
 
+.allwork{
+  margin-top: 75px;
+}
 
 
-
-
+.my-work{
+  margin-top:-15%;
+  padding: 10%;
+}
+.my-work h4{
+  color: #ffa500;
+  font-weight: bold;
+  font-size: 30px;
+}
+.my-work .subheading{
+  color: #3931af;
+  font-size: 20px;
+}
+.my-work .row
+{
+  margin-top: 10%;
+}
+.work-img 
+{
+  text-align: center;
+}
+.work-img img{
+  width: 40%;
+}
 
 
 /* ====================================================
