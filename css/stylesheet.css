@@ -431,41 +431,41 @@ text-align: center;
 }
 
 .contact h5 {
-  font-family: "Fira Code", monospace;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  color: var(--head);
+  color:#221257;
 }
 
 .contact h1 {
   font-size: 2.7rem;
   font-weight: 800;
-  color: var(--firstcolor);
+  color:#7D5FE5;
 }
 
-.contact p {
-  color: var(--paragraph);
-}
+
 
 form {
   display: flex;
   flex-direction: column;
+  margin-top: 25%;
   justify-content: left;
   gap: 1.5em;
   padding: 30px;
-  background-color: #fff;
-  box-shadow: 0 0 10px #a7a7a7;
+  background-color: #5a408a;
+  box-shadow: 0 0 10px #482372;
   border-radius: 15px;
 }
 
 form label {
   font-size: 0.9rem;
+  color: #f0eded;
 }
 
 form input {
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 2px solid #a7a7a7;
+  border-bottom: 2px solid #6211e4;
   transition: ease-out 0.5s;
 }
 
@@ -478,7 +478,7 @@ form textarea {
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 2px solid #a7a7a7;
+  border-bottom: 2px solid #690dd3;
   transition: ease-out 0.5s;
 }
 
@@ -490,9 +490,9 @@ form textarea:focus {
 form button {
   width: 30%;
   padding: 10px 15px;
-  background-color: var(--sceondcolor);
+  background-color: #221257;
   border-radius: 10px;
-  color: #fff;
+  color: #eceee7;
   border: none;
   transition: ease-in-out 0.5s;
 }
@@ -500,7 +500,7 @@ form button {
 form button:hover,
 form button:focus {
   border-radius: 30px;
-  box-shadow: 0 0 10px #cf87ff;
+  box-shadow: 0 0 10px #7513b6;
   outline: none;
   box-shadow: none;
 }
@@ -553,6 +553,7 @@ form button:focus {
   }
 
 }
+
 
 #footer{
   background-color: #1e0d68;
