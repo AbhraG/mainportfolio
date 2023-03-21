@@ -3,14 +3,14 @@ body {
 }
 
 a {
-  color: rgb(23, 5, 105);
+  color: rgb(35, 9, 148);
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
 }
 
 a:hover {
-  color: rgb(81, 28, 167);
+  color: rgb(109, 71, 172);
 }
 
 
@@ -63,10 +63,13 @@ font-family: 'Poppins', sans-serif;
 font-weight: bold;
 }
 
-
 .downlaod-button {
   margin: 5% 3% 5% 0;
   
+}
+
+.button:hover{
+  color: #fff;
 }
 
 @media (max-width: 1028px) {
